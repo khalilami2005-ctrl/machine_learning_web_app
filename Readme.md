@@ -1,7 +1,7 @@
 # Building a Machine Learning Web Application
 
 ## Bilibili videos
-- Get Inspired!
+- Get Inspired! https://www.bilibili.com/video/BV1244y1J7C7/
 - Streamlit
 - FastAPI
 - Uvicorn
