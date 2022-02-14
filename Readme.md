@@ -39,7 +39,7 @@ lines of code handling the user
 interface and controls, and almost 
 no design efforts.
 
-![](streamlit.png)
+![](img/streamlit.png)
 
 
 #### Online Tutorial Videos
@@ -83,7 +83,7 @@ head_df = df.head(line_count)
 head_df
 ```
 #### Result
-![](result.png)
+![](img/result.png)
 
 
 
@@ -175,11 +175,11 @@ API: http://localhost:8000/
 
 #### HTTP request and response
 
-![](web.png)
+![](img/web.png)
 
-![](http_request.png)
+![](img/http_request.png)
 
-![](http_response.png)
+![](img/http_response.png)
 
 #### Documentation and tests
 FastAPI provides automatically
