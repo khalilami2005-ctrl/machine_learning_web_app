@@ -1,7 +1,7 @@
 # Building a Machine Learning Web Application
 
 ## Bilibili videos
-- [Get Inspired!](https://www.bilibili.com/video/BV1244y1J7C7/)
+- Get Inspired! [Video](https://www.bilibili.com/video/BV1244y1J7C7/)
 - Streamlit 
   - [Video 1 - Train model with Jupyter notebook](https://www.bilibili.com/video/BV1Ri4y117Qh/)
   - [Video 2 - Using trained model with streamlit](https://www.bilibili.com/video/BV1Ju411R7Gy/)
