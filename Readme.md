@@ -42,21 +42,21 @@ no design efforts.
 ![](streamlit.png)
 
 
-##### Online Tutorial Videos
+#### Online Tutorial Videos
 To learn how to use Streamlit, you are invited to watch those videos:  
 - https://www.youtube.com/watch?v=R2nr1uZ8ffc
 - https://www.youtube.com/watch?v=sxLNCDnqyFc
 - https://www.youtube.com/watch?v=VtrFjkSGgKM
 - https://www.youtube.com/watch?v=z8vgmvtgxCs
 
-##### How does it work?
+#### How does it work?
 Streamlit interprets the code of the app from top to bottom. Every elements encountered in the main script file are displayed in the interface one after the other
 
 The elements may be simple variables (strings containing text or markdown), objects (dataframes are represented as tables), or more complex user controls (actions or inputs), charts, maps or third party graphs (matplotlib, plotly, etc)
 
 Streamlit draws the output live in the browser, as a notebook would
 
-##### A simple app
+#### A simple app
 ```python
 import streamlit as st
 
@@ -82,12 +82,12 @@ head_df = df.head(line_count)
 
 head_df
 ```
-##### Result
+#### Result
 ![](result.png)
 
 
 
-##### How to run the app?
+#### How to run the app?
 ```shell
 streamlit run app.py
 ```
@@ -101,7 +101,7 @@ When the command is ran, Streamlit starts a web server and opens a new tab in th
 
 
 
-##### FastAPI
+#### FastAPI
 - High performance python framework
 
 - Easy to learn, fast to code
@@ -112,7 +112,7 @@ When the command is ran, Streamlit starts a web server and opens a new tab in th
 pip install fastapi
 ```
 
-##### Root entry point
+#### Root entry point
 **FastAPI** uses python decorators in order to link 
 the routes that the developers will query to the 
 code of the endpoints. The code of the decorated 
@@ -132,7 +132,7 @@ def index():
 ```
 
 
-##### What if we run the code?
+#### What if we run the code?
 ```shell
 python -m simple
 ```
@@ -157,7 +157,7 @@ endpoints.
 pip install uvicorn
 ```
 
-##### Let's run our API using the web server
+#### Let's run our API using the web server
 **Uvicorn** requires as parameters the name of the python 
 file to run (here simple.py) as well as the name of 
 the variable inside of the file containing the 
@@ -173,7 +173,7 @@ API: http://localhost:8000/
 
 ## Prediction API use case
 
-##### HTTP request and response
+#### HTTP request and response
 
 ![](web.png)
 
@@ -181,7 +181,7 @@ API: http://localhost:8000/
 
 ![](http_response.png)
 
-##### Documentation and tests
+#### Documentation and tests
 FastAPI provides automatically
 generated documentation allowing
 developers to simplify their integration
@@ -202,7 +202,7 @@ very useful for developers wanting to test our API
 
 
 
-##### Ask for prediction
+#### Ask for prediction
 We want to build an API to ask for a prediction. 
 For example, how long (in minutes) is the queue 
 at the entry of the Louvre museum for a given 
@@ -230,7 +230,7 @@ http://localhost:8000/predict?day_of_week=0&time=14:00
 in which ```?day_of_week=0&time=14:00``` is called a query string.
 
 
-##### ```/predict``` endpoint
+#### ```/predict``` endpoint
 Let's add a ```/predict``` endpoint to our API
 ```python
 @app.get("/predict")
@@ -238,7 +238,7 @@ def predict():
     return {'wait': 64}
 ```
 
-##### Query parameters
+#### Query parameters
 What if you want to pass parameters to the endpoint?
 
 FastAPI provides a 
@@ -261,7 +261,7 @@ into the suitable data types!
 
 ## Deployment on public cloud VM
 
-##### Why?
+#### Why?
 We want to enable any developer writing
 code on a remote machine connected to
 the Internet to interact with our program.
@@ -275,11 +275,11 @@ to production ?
 
 #### Heroku 
 
-##### Docker
+#### Docker
 
 #### Github Pages
 
-##### Nice Page
+#### Nice Page
 
 #### WeChat Mini-program
 
