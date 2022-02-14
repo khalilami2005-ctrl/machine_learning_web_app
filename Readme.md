@@ -13,9 +13,9 @@
 
 ## Get Inspired!
 
-
 - https://www.tensorflow.org/js
 - https://streamlit.io/gallery
+- https://playground.tensorflow.org
 - https://maneprajakta.github.io/Digit_Recognition_Web_App/
 - https://www.cs.ryerson.ca/~aharley/vis/fc/
 
