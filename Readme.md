@@ -7,9 +7,10 @@
 - Uvicorn
 - Prediction API use case
 - Deployment on public cloud VM
-- Deployment on Heroku [Optional]
-- Deployment on Github Pages [Optional]
-- Deployment on WeChat Mini-program [Optional]
+- Deployment on free web hosts [Optional]
+    - Deployment on Heroku [Optional]
+    - Deployment on Github Pages [Optional]
+    - Deployment on WeChat Mini-program [Optional]
 
 ## Get Inspired!
 
