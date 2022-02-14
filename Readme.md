@@ -1,8 +1,10 @@
 # Building a Machine Learning Web Application
 
 ## Bilibili videos
-- Get Inspired! https://www.bilibili.com/video/BV1244y1J7C7/
-- Streamlit
+- [Get Inspired!](https://www.bilibili.com/video/BV1244y1J7C7/)
+- Streamlit 
+  - [Video 1 - Train model with Jupyter notebook]()
+  - [Video 2 - Using trained model with streamlit]()
 - Deployment on local machine
     - FastAPI
     - Uvicorn
