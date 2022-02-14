@@ -42,6 +42,7 @@ no design efforts.
 ![](img/streamlit.png)
 
 
+
 #### Online Tutorial Videos
 To learn how to use Streamlit, you are invited to watch those videos:  
 - https://www.youtube.com/watch?v=R2nr1uZ8ffc
@@ -55,6 +56,10 @@ Streamlit interprets the code of the app from top to bottom. Every elements enco
 The elements may be simple variables (strings containing text or markdown), objects (dataframes are represented as tables), or more complex user controls (actions or inputs), charts, maps or third party graphs (matplotlib, plotly, etc)
 
 Streamlit draws the output live in the browser, as a notebook would
+
+
+#### API references
+https://docs.streamlit.io/library/api-reference
 
 #### A simple app
 ```python
