@@ -3,9 +3,10 @@
 ## Bilibili videos
 - Get Inspired! https://www.bilibili.com/video/BV1244y1J7C7/
 - Streamlit
-- FastAPI
-- Uvicorn
-- Prediction API use case
+- Deployment on local machine
+    - FastAPI
+    - Uvicorn
+    - Prediction API use case
 - Deployment on public cloud VM
 - Deployment on free web hosts [Optional]
     - Deployment on Heroku [Optional]
