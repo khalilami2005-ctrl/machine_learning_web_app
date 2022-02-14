@@ -2,9 +2,9 @@
 
 ## Bilibili videos
 - Get Inspired!
+- Streamlit
 - FastAPI
 - Uvicorn
-- Streamlit
 - Prediction API use case
 - Deployment on public cloud VM
 - Deployment on Heroku
@@ -32,6 +32,10 @@ To learn how to use Streamlit, you are invited to watch those videos:
 
 ## FastAPI
 
+![](web.png)
+
+
+##### FastAPI
 - High performance python framework
 
 - Easy to learn, fast to code
@@ -76,11 +80,9 @@ We will use Uvicorn!
 
 ## Uvicorn
 
-![](web.png)
 
-![](http_request.png)
 
-![](http_response.png)
+
 
 **Unicorn** (https://www.uvicorn.org/) is a lightning fast web server for python.
 
@@ -107,6 +109,12 @@ Now we can browse to the root page of the
 API: http://localhost:8000/
 
 ## Prediction API use case
+
+##### HTTP request and response
+
+![](http_request.png)
+
+![](http_response.png)
 
 ##### Documentation and tests
 FastAPI provides automatically
