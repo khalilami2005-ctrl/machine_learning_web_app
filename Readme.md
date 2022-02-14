@@ -273,15 +273,15 @@ to production ?
 
 ## Deployment on free web hosts [Optional]
 
-#### Heroku 
+### Heroku 
 
-#### Docker
+##### Docker
 
-#### Github Pages
+### Github Pages
 
-#### Nice Page
+##### Nice Page
 
-#### WeChat Mini-program
+### WeChat Mini-program
 
 
 
