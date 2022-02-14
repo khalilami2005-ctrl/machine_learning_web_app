@@ -61,6 +61,8 @@ Streamlit draws the output live in the browser, as a notebook would
 #### API references
 https://docs.streamlit.io/library/api-reference
 
+![](img/streamlit_api.png)
+
 #### A simple app
 ```python
 import streamlit as st
