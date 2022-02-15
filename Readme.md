@@ -16,6 +16,20 @@
     - Deployment on Github Pages [Optional]
     - Deployment on WeChat Mini-program [Optional]
 
+
+## YouTube videos
+- Streamlit
+  - https://www.youtube.com/watch?v=R2nr1uZ8ffc
+  - https://www.youtube.com/watch?v=sxLNCDnqyFc
+  - https://www.youtube.com/watch?v=VtrFjkSGgKM
+  - https://www.youtube.com/watch?v=z8vgmvtgxCs
+
+- FastAPI
+  - https://www.youtube.com/watch?v=kCggyi_7pHg
+
+- Uvicorn
+  - https://youtu.be/-ykeT6kk4bk?t=662
+
 ## Get Inspired!
 
 - https://www.tensorflow.org/js
@@ -46,14 +60,6 @@ no design efforts.
 
 ![](img/streamlit.png)
 
-
-
-#### Online Tutorial Videos
-To learn how to use Streamlit, you are invited to watch those videos:  
-- https://www.youtube.com/watch?v=R2nr1uZ8ffc
-- https://www.youtube.com/watch?v=sxLNCDnqyFc
-- https://www.youtube.com/watch?v=VtrFjkSGgKM
-- https://www.youtube.com/watch?v=z8vgmvtgxCs
 
 #### How does it work?
 Streamlit interprets the code of the app from top to bottom. Every elements encountered in the main script file are displayed in the interface one after the other
