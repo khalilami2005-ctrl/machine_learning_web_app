@@ -301,5 +301,6 @@ to production ?
 
 ### WeChat Mini-program
 
+##### Take a photo and recognize digit
 
 
