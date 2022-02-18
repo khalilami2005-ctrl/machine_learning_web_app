@@ -8,9 +8,11 @@
   - [Video 2 - Using trained model with streamlit](https://www.bilibili.com/video/BV1Ju411R7Gy/)
 - Deployment on local machine
     - FastAPI
-    - Uvicorn
+    - Uvicorn 
+    - Python ```requests``` package
     - Prediction API use case
 - Deployment on public cloud VM
+- Deployment with Docker
 - Deployment on free web hosts [Optional]
     - Deployment on Heroku [Optional]
     - Deployment on Github Pages [Optional]
@@ -29,6 +31,12 @@
 
 - Uvicorn
   - https://youtu.be/-ykeT6kk4bk?t=662
+
+- Python ```requests``` package
+  - https://www.youtube.com/watch?v=qriL9Qe8pJc
+  
+
+
 
 ## Get Inspired!
 
@@ -189,6 +197,12 @@ uvicorn simple:app --reload
 Now we can browse to the root page of the 
 API: http://localhost:8000/
 
+
+#### Uvicorn Debug
+https://fastapi.tiangolo.com/tutorial/debugging/
+
+
+
 ## Prediction API use case
 
 #### HTTP request and response
@@ -220,7 +234,7 @@ very useful for developers wanting to test our API
 
 
 
-#### Ask for prediction
+#### Ask for prediction with ```requests```
 We want to build an API to ask for a prediction. 
 For example, how long (in minutes) is the queue 
 at the entry of the Louvre museum for a given 
@@ -288,19 +302,25 @@ Now that we are able to run our API
 on our machine, how can we push it
 to production ?
 
+## Deployment with Docker
 
-## Deployment on free web hosts [Optional]
 
-### Heroku 
+## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
-##### Docker
+### Heroku [Optional]
 
-### Github Pages
+Do it with students if needed.
+
+### Github Pages [Optional]
 
 ##### Nice Page
 
-### WeChat Mini-program
+Do it with students if needed.
+
+
+### WeChat Mini-program [Optional]
 
 ##### Take a photo and recognize digit
 
+Do it with students if needed.
 

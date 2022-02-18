@@ -1,9 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
-from tensorflow import keras
 import cv2
 import numpy as np
-model_new = keras.models.load_model('mnist.hdf5')
 
 st.title("MNIST Digit Recognizer")
 
@@ -25,7 +23,7 @@ if canvas_result.image_data is not None:
     img_rescaling = cv2.resize(img, (SIZE, SIZE), interpolation=cv2.INTER_NEAREST)
     st.write('Input Image')
     st.image(img_rescaling)
-    
+
 if st.button('Predict'):
     img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     pred = model_new.predict(img_grey.reshape(1, 28, 28, 1))
