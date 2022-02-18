@@ -1,14 +1,8 @@
 from fastapi import FastAPI, File, UploadFile, Form
-from streamlit_drawable_canvas import st_canvas
 from tensorflow import keras
 import cv2
-from cv2 import *
 import numpy as np
-import io
-import base64
 import uvicorn
-
-
 
 app = FastAPI(debug=True)
 
