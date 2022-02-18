@@ -1,9 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 import cv2
-import numpy as np
 import requests
-from PIL import Image
 
 
 st.title("MNIST Digit Recognizer")
@@ -29,10 +27,8 @@ if canvas_result.image_data is not None:
 
 if st.button('Predict'):
     url = 'http://localhost:8000/predict/'
-    # im = Image.fromarray(img)
-    # im.save("your_file.png")
     data = cv2.imencode('.png', img)[1].tobytes()
-    files = {'file': open('your_file.png', 'rb')}
+    files = {'img': data}
     response = requests.post(url, files=files)
     print(response)
     try:
