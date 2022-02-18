@@ -320,6 +320,9 @@ Do it with students if needed.
 
 ## Misc
 
+#### FastAPI docs
+http://localhost:8000/docs
+
 #### Debug Uvicorn & FastAPI from PyCharm
 https://fastapi.tiangolo.com/tutorial/debugging/
 
