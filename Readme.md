@@ -197,12 +197,6 @@ uvicorn simple:app --reload
 Now we can browse to the root page of the 
 API: http://localhost:8000/
 
-
-#### Uvicorn Debug
-https://fastapi.tiangolo.com/tutorial/debugging/
-
-
-
 ## Prediction API use case
 
 #### HTTP request and response
@@ -323,4 +317,24 @@ Do it with students if needed.
 ##### Take a photo and recognize digit
 
 Do it with students if needed.
+
+## Misc
+
+#### Debug Uvicorn & FastAPI from PyCharm
+https://fastapi.tiangolo.com/tutorial/debugging/
+
+##### Run Streamlit from PyCharm
+https://discuss.streamlit.io/t/run-streamlit-from-pycharm/21624
+
+Simply Change Interpreter options:
+```shell
+-m streamlit run
+```
+and then it's OK.
+
+#### Debug Streamlit from PyCharm
+https://discuss.streamlit.io/t/version-1-5-0/21455/11
+https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
+
+
 

@@ -2,6 +2,9 @@ import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 import cv2
 import numpy as np
+import requests
+from PIL import Image
+
 
 st.title("MNIST Digit Recognizer")
 
@@ -25,7 +28,15 @@ if canvas_result.image_data is not None:
     st.image(img_rescaling)
 
 if st.button('Predict'):
-    img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    pred = model_new.predict(img_grey.reshape(1, 28, 28, 1))
-    st.write(f'result: {np.argmax(pred[0])}')
-    st.bar_chart(pred[0])
+    url = 'http://localhost:8000/predict/'
+    # im = Image.fromarray(img)
+    # im.save("your_file.png")
+    data = cv2.imencode('.png', img)[1].tobytes()
+    files = {'file': open('your_file.png', 'rb')}
+    response = requests.post(url, files=files)
+    print(response)
+    try:
+        data = response.json()
+        print(data)
+    except requests.exceptions.RequestException:
+        print(response.text)
