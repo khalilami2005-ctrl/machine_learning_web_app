@@ -27,12 +27,13 @@ if canvas_result.image_data is not None:
 
 if st.button('Predict'):
     url = 'http://localhost:8000/predict/'
-    data = cv2.imencode('.png', img)[1].tobytes()
-    files = {'img': data}
+    data_sent = cv2.imencode('.png', img)[1].tobytes()
+    files = {'img': data_sent}
     response = requests.post(url, files=files)
     print(response)
-    try:
-        data = response.json()
-        print(data)
-    except requests.exceptions.RequestException:
-        print(response.text)
+    data_received = response.json()
+    print(data_received)
+    result = data_received['result']
+    percent = data_received['percent']
+    st.write(f'result: {result}')
+    st.bar_chart(percent)
