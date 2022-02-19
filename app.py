@@ -21,13 +21,13 @@ canvas_result = st_canvas(
 )
 
 if canvas_result.image_data is not None:
-    img = cv2.resize(canvas_result.image_data.astype('uint8'), (28, 28))
-    img_rescaling = cv2.resize(img, (SIZE, SIZE), interpolation=cv2.INTER_NEAREST)
+    img_color = cv2.resize(canvas_result.image_data.astype('uint8'), (28, 28))
+    img_rescaling = cv2.resize(img_color, (SIZE, SIZE), interpolation=cv2.INTER_NEAREST)
     st.write('Input Image')
     st.image(img_rescaling)
     
 if st.button('Predict'):
-    img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img_grey = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
     pred = model_new.predict(img_grey.reshape(1, 28, 28, 1))
     st.write(f'result: {np.argmax(pred[0])}')
     st.bar_chart(pred[0])

@@ -336,8 +336,6 @@ Simply Change Interpreter options:
 and then it's OK.
 
 #### Debug Streamlit from PyCharm
-https://discuss.streamlit.io/t/version-1-5-0/21455/11
-https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
+- https://discuss.streamlit.io/t/version-1-5-0/21455/11
+- https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
 
-#### Clone a specific Git branch
-https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch
