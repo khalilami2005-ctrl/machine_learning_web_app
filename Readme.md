@@ -318,12 +318,6 @@ Do it with students if needed.
 
 Do it with students if needed.
 
-### Processing & P5.js [Optional]
-
-https://cs.nyu.edu/~kapp/cs101/processing_on_the_web/
-
-Do it with students if needed.
-
 ## Misc
 
 #### FastAPI docs
