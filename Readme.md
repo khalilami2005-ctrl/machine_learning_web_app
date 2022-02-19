@@ -318,6 +318,12 @@ Do it with students if needed.
 
 Do it with students if needed.
 
+### Processing & P5.js [Optional]
+
+https://cs.nyu.edu/~kapp/cs101/processing_on_the_web/
+
+Do it with students if needed.
+
 ## Misc
 
 #### FastAPI docs
@@ -339,5 +345,5 @@ and then it's OK.
 https://discuss.streamlit.io/t/version-1-5-0/21455/11
 https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
 
-
-
+#### Clone a specific Git branch
+https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch
