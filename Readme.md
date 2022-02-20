@@ -223,7 +223,7 @@ Redoc documentation:
 
 The /docs endpoint is powered by
 [Swagger](https://github.com/swagger-api/swagger-ui)
-nd comes in very handy in order to test our API and verify that everything is working correctly. It is also
+and comes in very handy in order to test our API and verify that everything is working correctly. It is also
 very useful for developers wanting to test our API
 
 
@@ -318,10 +318,13 @@ Do it with students if needed.
 
 Do it with students if needed.
 
-## Misc
 
-#### FastAPI docs
-http://localhost:8000/docs
+## Possible further extensions
+- Plotly
+
+
+
+## Misc
 
 #### Debug Uvicorn & FastAPI from PyCharm
 https://fastapi.tiangolo.com/tutorial/debugging/
