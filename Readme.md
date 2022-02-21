@@ -16,7 +16,7 @@
   - [Video 8 - Cloud Deployment - Buy and connect to cloud VM](https://www.bilibili.com/video/BV1nZ4y1k7Nr/)
   - [Video 9 - Cloud Deployment - FastAPI & Backend](https://www.bilibili.com/video/BV1aS4y1F76w/)
   - [Video 10 - Cloud Deployment - Streamlit & Frontend](https://www.bilibili.com/video/BV1TR4y1j7fp/)
-- Deployment with Docker
+- Deployment with Docker [Optional]
 - Deployment on free web hosts [Optional]
     - Deployment on Heroku [Optional]
     - Deployment on Github Pages [Optional]
@@ -321,7 +321,7 @@ python -m http.server 9000
 - https://linuxize.com/post/linux-nohup-command/
 - https://linuxize.com/post/how-to-run-linux-commands-in-background/
 
-## Deployment with Docker
+## Deployment with Docker [Optional]
 
 
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
