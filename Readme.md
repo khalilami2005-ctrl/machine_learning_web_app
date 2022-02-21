@@ -1,6 +1,8 @@
 # Building a Machine Learning Web Application
 
 ## Bilibili videos
+:rocket: All code used in the videos can be found in this repository.
+
 - Get Inspired! 
   - [Video 1 - Get Inspired!](https://www.bilibili.com/video/BV1244y1J7C7/)
 - Streamlit 
