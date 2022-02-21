@@ -52,6 +52,8 @@
 - https://maneprajakta.github.io/Digit_Recognition_Web_App/
 - https://www.cs.ryerson.ca/~aharley/vis/fc/
 
+:rocket: If you really struggle with coming up with good ideas, you could git clone a Jupyter notebook from github and then deploy it as 
+a web app.
 
 ## Streamlit
 
@@ -325,6 +327,8 @@ python -m http.server 9000
 
 ## Deployment with Docker [Optional]
 
+- https://www.tutorialspoint.com/docker/index.htm
+- https://docker-curriculum.com/
 
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
