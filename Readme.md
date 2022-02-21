@@ -7,13 +7,12 @@
   - [Video 1 - Get Inspired!](https://www.bilibili.com/video/BV1244y1J7C7/)
 - Streamlit 
   - [Video 2 - Train model with Jupyter notebook](https://www.bilibili.com/video/BV1Ri4y117Qh/)
-  - [Video 3 - Using trained model with streamlit](https://www.bilibili.com/video/BV1Ju411R7Gy/)
+  - [Video 3 - Use trained model with streamlit](https://www.bilibili.com/video/BV1Ju411R7Gy/)
 - Deployment on local machine
     - [Video 4 - Local Deployment - Architecture](https://www.bilibili.com/video/BV1RS4y1r79Q/)
     - [Video 5 - Local Deployment - Backend & FastAPI & Uvicorn](https://www.bilibili.com/video/BV1aP4y1F7xs/)
     - [Video 6 - Local Deployment - Frontend & Streamlit](https://www.bilibili.com/video/BV1Lb4y1t7LK/)
-    - [Video 7 - Local Deployment - localhost demo](https://www.bilibili.com/video/BV1vR4y1V7Gn/)
-    
+    - [Video 7 - Local Deployment - Localhost Demo](https://www.bilibili.com/video/BV1vR4y1V7Gn/)
 - Deployment on public cloud VM
   - [Video 8 - Cloud Deployment - Buy and connect to cloud VM](https://www.bilibili.com/video/BV1nZ4y1k7Nr/)
   - [Video 9 - Cloud Deployment - FastAPI & Backend](https://www.bilibili.com/video/BV1aS4y1F76w/)
