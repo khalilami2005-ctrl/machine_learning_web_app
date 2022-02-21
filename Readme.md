@@ -15,6 +15,7 @@
 - Deployment on public cloud VM
   - [Video 8 - Cloud Deployment - Buy and connect to cloud VM](https://www.bilibili.com/video/BV1nZ4y1k7Nr/)
   - [Video 9 - Cloud Deployment - FastAPI & Backend](https://www.bilibili.com/video/BV1aS4y1F76w/)
+  - [Video 10 - Cloud Deployment - Streamlit & Frontend](https://www.bilibili.com/video/BV1TR4y1j7fp/)
 - Deployment with Docker
 - Deployment on free web hosts [Optional]
     - Deployment on Heroku [Optional]
