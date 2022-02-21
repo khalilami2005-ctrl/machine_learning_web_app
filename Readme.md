@@ -221,9 +221,6 @@ tested through dedicated pages.
 Swagger documentation and tests:
 - http://localhost:8000/docs
 
-Redoc documentation:
-- http://localhost:8000/redoc
-
 The /docs endpoint is powered by
 [Swagger](https://github.com/swagger-api/swagger-ui)
 and comes in very handy in order to test our API and verify that everything is working correctly. It is also
@@ -333,3 +330,7 @@ and then it's OK.
 - https://discuss.streamlit.io/t/version-1-5-0/21455/11
 - https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
 
+#### Python Simple HTTP Server
+```shell
+python -m http.server 9000
+```
