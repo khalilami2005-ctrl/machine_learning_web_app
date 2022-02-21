@@ -298,8 +298,11 @@ on our machine, how can we push it
 to production ?
 
 #### ssh authorized_keys
+- https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
+- https://askubuntu.com/questions/46424/how-do-i-add-ssh-keys-to-authorized-keys-file
 
 #### ```scp```
+- https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
 
 #### Python Simple HTTP Server
 ```shell
@@ -307,13 +310,12 @@ python -m http.server 9000
 ```
 
 #### ```ping``` and ICMP
-
+- https://stackoverflow.com/questions/21981796/cannot-ping-aws-ec2-instance
+- https://serverfault.com/questions/511738/why-cant-i-ping-my-freshly-set-up-amazon-web-service-ec2-instance
 
 #### security group
-
-
-#### Domain name and 80 & 443 port
-
+- https://medium.com/geekculture/aws-article-6-security-groups-in-ec2-6aa6e9a1faf
+- https://aviatrix.com/learn-center/cloud-security/aws-security-groups/
 
 ## Deployment with Docker
 
