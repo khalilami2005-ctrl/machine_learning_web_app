@@ -317,6 +317,10 @@ python -m http.server 9000
 - https://medium.com/geekculture/aws-article-6-security-groups-in-ec2-6aa6e9a1faf
 - https://aviatrix.com/learn-center/cloud-security/aws-security-groups/
 
+#### ```nohup``` and ```&```
+- https://linuxize.com/post/linux-nohup-command/
+- https://linuxize.com/post/how-to-run-linux-commands-in-background/
+
 ## Deployment with Docker
 
 
