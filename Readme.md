@@ -224,7 +224,7 @@ Swagger documentation and tests:
 The /docs endpoint is powered by
 [Swagger](https://github.com/swagger-api/swagger-ui)
 and comes in very handy in order to test our API and verify that everything is working correctly. It is also
-very useful for developers wanting to test our API
+very useful for developers wanting to test our API.
 
 
 
@@ -303,22 +303,29 @@ to production ?
 
 ### Heroku [Optional]
 
+- https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
+- https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3
+- https://www.analyticsvidhya.com/blog/2021/06/deploy-your-ml-dl-streamlit-application-on-heroku/
+
 ### Github Pages [Optional]
+- https://www.cloudsavvyit.com/15220/how-to-set-up-a-simple-free-website-with-github-pages/
+- https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1
 
 ##### Nice Page
+- https://nicepage.com/
 
 ### WeChat Mini-program [Optional]
 
-##### Take a photo and recognize digit
+- Take a photo and recognize digit
 
 
 ## Misc
 
 #### Debug Uvicorn & FastAPI from PyCharm
-https://fastapi.tiangolo.com/tutorial/debugging/
+- https://fastapi.tiangolo.com/tutorial/debugging/
 
 ##### Run Streamlit from PyCharm
-https://discuss.streamlit.io/t/run-streamlit-from-pycharm/21624
+- https://discuss.streamlit.io/t/run-streamlit-from-pycharm/21624
 
 Simply Change Interpreter options:
 ```shell
