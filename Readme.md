@@ -297,6 +297,24 @@ Now that we are able to run our API
 on our machine, how can we push it
 to production ?
 
+#### ssh authorized_keys
+
+#### ```scp```
+
+#### Python Simple HTTP Server
+```shell
+python -m http.server 9000
+```
+
+#### ```ping``` and ICMP
+
+
+#### security group
+
+
+#### Domain name and 80 & 443 port
+
+
 ## Deployment with Docker
 
 
@@ -338,7 +356,3 @@ and then it's OK.
 - https://discuss.streamlit.io/t/version-1-5-0/21455/11
 - https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
 
-#### Python Simple HTTP Server
-```shell
-python -m http.server 9000
-```
