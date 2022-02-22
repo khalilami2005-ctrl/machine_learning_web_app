@@ -17,7 +17,7 @@
   - [Video 8 - Cloud Deployment - Buy and connect to cloud VM](https://www.bilibili.com/video/BV1nZ4y1k7Nr/)
   - [Video 9 - Cloud Deployment - FastAPI & Backend](https://www.bilibili.com/video/BV1aS4y1F76w/)
   - [Video 10 - Cloud Deployment - Streamlit & Frontend](https://www.bilibili.com/video/BV1TR4y1j7fp/)
-- Deployment with Docker [Optional]
+- Deployment with Docker
 - Deployment on free web hosts [Optional]
     - Deployment on Heroku [Optional]
     - Deployment on Github Pages [Optional]
@@ -329,11 +329,10 @@ python -m http.server 9000
 - https://askubuntu.com/questions/852206/what-does-ps-efgrep-processname-mean
 - https://www.linode.com/docs/guides/use-killall-and-kill-to-stop-processes-on-linux/
 
-## Deployment with Docker [Optional]
+## Deployment with Docker
 ![](Readme_img/docker.png)
 
-
-- https://www.tutorialspoint.com/docker/index.htm
+#### :rocket::rocket::rocket: Unmissible Tutorial for beginners
 - https://docker-curriculum.com/
 
 #### Install Docker on Ubuntu
@@ -345,6 +344,21 @@ sudo apt update
 sudo apt install docker-ce
 ```
 
+#### Install Docker on Windows
+If your Windows supports WSL (Windows Subsystem for Linux), you could 
+install Docker on your Windows.
+
+Or else, you could get a virtual machine of Linux and install Docker
+in the VM. 
+
+Docker can be installed on your public cloud VM instance as well.
+
+#### Docker Images
+- Python: https://hub.docker.com/_/python
+- hello-world: https://hub.docker.com/_/hello-world
+- ubuntu: https://hub.docker.com/_/ubuntu
+
+
 #### Dockerfile vs Image vs Container
 ![](Readme_img/docker_cake.png)
 
@@ -352,13 +366,6 @@ sudo apt install docker-ce
 - The ```Docker image``` holds all the files required in order to instantiate a Docker container. You can see the Docker image as a layer ***cake mold***.
 - The ```Docker container``` hosts a running instance of your code. You can see the Docker container as a ***layer cake***.
 - Our application will be consumed in different ways depending on its nature. A website will be consumed through a browser. An API will be consumed through code.    You can see the consumer of the application as receiving ***a piece of the layer cake***.
-
-
-
-
-
-
-
 
 
 
