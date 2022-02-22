@@ -345,6 +345,24 @@ sudo apt update
 sudo apt install docker-ce
 ```
 
+#### Dockerfile vs Image vs Container
+![](Readme_img/docker_cake.png)
+
+- The ```Dockerfile``` is a document that lists all the commands that a user would run in order to build a Docker image.  You can see the Dockerfile as a ***blueprint*** for a layer cake mold.
+- The ```Docker image``` holds all the files required in order to instantiate a Docker container. You can see the Docker image as a layer ***cake mold***.
+- The ```Docker container``` hosts a running instance of your code. You can see the Docker container as a ***layer cake***.
+- Our application will be consumed in different ways depending on its nature. A website will be consumed through a browser. An API will be consumed through code.    You can see the consumer of the application as receiving ***a piece of the layer cake***.
+
+
+
+
+
+
+
+
+
+
+
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
 ### Heroku [Optional]
