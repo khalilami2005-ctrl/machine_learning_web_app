@@ -332,32 +332,39 @@ python -m http.server 9000
 ## Deployment with Docker
 ![](Readme_img/docker.png)
 
-#### :rocket::rocket::rocket: Unmissible Tutorial for beginners
-- https://docker-curriculum.com/
 
 #### Install Docker on Ubuntu
+https://docs.docker.com/engine/install/ubuntu/
+
 ```shell
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu `lsb_release -cs` test"
 sudo apt update
-sudo apt install docker-ce
+sudo apt install docker-ce docker-ce-cli containerd.io
 ```
 
-#### Install Docker on Windows
+#### Install Docker on Windows and MacOS
 If your Windows supports WSL (Windows Subsystem for Linux), you could 
-install Docker on your Windows.
+install Docker on your Windows. See https://docs.docker.com/desktop/windows/install/
 
-Or else, you could get a virtual machine of Linux and install Docker
-in the VM. 
+Or else, you could get a virtual machine of Ubuntu and install Docker
+in the VM. Docker can be installed on your public cloud VM instance running
+Ubuntu as well.
 
-Docker can be installed on your public cloud VM instance as well.
+For MacOS, see https://docs.docker.com/desktop/mac/install/ 
+
+#### :rocket::rocket::rocket: Unmissible Tutorial for beginners
+- https://docker-curriculum.com/
+
 
 #### Docker Images
 - Python: https://hub.docker.com/_/python
 - hello-world: https://hub.docker.com/_/hello-world
 - ubuntu: https://hub.docker.com/_/ubuntu
 
+#### Terminology 
+![](Readme_img/terminology.png)
 
 #### Dockerfile vs Image vs Container
 ![](Readme_img/docker_cake.png)
@@ -367,14 +374,10 @@ Docker can be installed on your public cloud VM instance as well.
 - The ```Docker container``` hosts a running instance of your code. You can see the Docker container as a ***layer cake***.
 - Our application will be consumed in different ways depending on its nature. A website will be consumed through a browser. An API will be consumed through code.    You can see the consumer of the application as receiving ***a piece of the layer cake***.
 
-
-
-
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
 ### Heroku [Optional]
 ![](Readme_img/heroku.png)
-
 
 - https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
 - https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3
@@ -394,7 +397,7 @@ Docker can be installed on your public cloud VM instance as well.
 ![](Readme_img/miniprogram.png)
 
 
-- Take a photo and recognize digit
+- :rocket::rocket::rocket: Take a photo and recognize digit
 
 
 ## Misc
