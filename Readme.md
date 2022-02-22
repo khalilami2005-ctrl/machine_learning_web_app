@@ -374,6 +374,23 @@ For MacOS, see https://docs.docker.com/desktop/mac/install/
 - The ```Docker container``` hosts a running instance of your code. You can see the Docker container as a ***layer cake***.
 - Our application will be consumed in different ways depending on its nature. A website will be consumed through a browser. An API will be consumed through code.    You can see the consumer of the application as receiving ***a piece of the layer cake***.
 
+#### :rocket: [Copy Docker images from one host to another without using a repository](https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository)
+
+You will need to save the Docker image as a tar file:
+```shell
+docker save -o <path for generated tar file> <image name>
+```
+
+Then copy your image to a new system with regular 
+file transfer tools such as cp, scp or 
+rsync. 
+After that you will have to load the image into Docker:
+```shell
+docker load -i <path to image tar file>
+```
+
+Other viable alternative methods can be found here: https://www.tutorialspoint.com/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
+
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
 ### Heroku [Optional]
