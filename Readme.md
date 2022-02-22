@@ -374,6 +374,10 @@ For MacOS, see https://docs.docker.com/desktop/mac/install/
 - The ```Docker container``` hosts a running instance of your code. You can see the Docker container as a ***layer cake***.
 - Our application will be consumed in different ways depending on its nature. A website will be consumed through a browser. An API will be consumed through code.    You can see the consumer of the application as receiving ***a piece of the layer cake***.
 
+#### Docker Registry
+- If your network isn't restricted: https://github.com/veggiemonk/awesome-docker#registry
+- If your network is slightly restricted: https://www.cnblogs.com/logo-fox/p/7592138.html
+
 #### :rocket: [Copy Docker images from one host to another without using a repository](https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository)
 
 You will need to save the Docker image as a tar file:
