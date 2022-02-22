@@ -354,7 +354,7 @@ Ubuntu as well.
 
 For MacOS, see https://docs.docker.com/desktop/mac/install/ 
 
-#### :rocket::rocket::rocket: Unmissible Tutorial for beginners
+#### :rocket: :rocket: :rocket: Unmissible Tutorial for beginners
 - https://docker-curriculum.com/
 
 
@@ -397,7 +397,7 @@ For MacOS, see https://docs.docker.com/desktop/mac/install/
 ![](Readme_img/miniprogram.png)
 
 
-- :rocket::rocket::rocket: Take a photo and recognize digit
+- :rocket: :rocket: :rocket: Take a photo and recognize digit
 
 
 ## Misc
