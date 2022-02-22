@@ -73,7 +73,7 @@ lines of code handling the user
 interface and controls, and almost 
 no design efforts.
 
-![](img/streamlit.png)
+![](Readme_img/streamlit.png)
 
 
 #### How does it work?
@@ -87,7 +87,7 @@ Streamlit draws the output live in the browser, as a notebook would
 #### API references
 https://docs.streamlit.io/library/api-reference
 
-![](img/streamlit_api.png)
+![](Readme_img/streamlit_api.png)
 
 #### A simple app
 ```python
@@ -116,7 +116,7 @@ head_df = df.head(line_count)
 head_df
 ```
 #### Result
-![](img/result.png)
+![](Readme_img/result.png)
 
 
 
@@ -132,7 +132,7 @@ When the command is ran, Streamlit starts a web server and opens a new tab in th
 
 ## FastAPI
 
-
+![](Readme_img/fastapi.png)
 
 #### FastAPI
 - High performance python framework
@@ -179,6 +179,7 @@ We will use Uvicorn!
 
 ## Uvicorn
 
+![](Readme_img/uvicorn.png)
 
 **[Unicorn](https://www.uvicorn.org/)** is a lightning fast web server for python.
 
@@ -208,11 +209,11 @@ API: http://localhost:8000/
 
 #### HTTP request and response
 
-![](img/web.png)
+![](Readme_img/web.png)
 
-![](img/http_request.png)
+![](Readme_img/http_request.png)
 
-![](img/http_response.png)
+![](Readme_img/http_response.png)
 
 #### Documentation and tests
 FastAPI provides automatically
@@ -300,7 +301,7 @@ Now that we are able to run our API
 on our machine, how can we push it
 to production ?
 
-#### ssh authorized_keys
+#### ```ssh-keygen``` and ```~/.ssh/authorized_keys```
 - https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
 - https://askubuntu.com/questions/46424/how-do-i-add-ssh-keys-to-authorized-keys-file
 
@@ -324,7 +325,13 @@ python -m http.server 9000
 - https://linuxize.com/post/linux-nohup-command/
 - https://linuxize.com/post/how-to-run-linux-commands-in-background/
 
+#### ```ps -e | grep ```, ```kill``` and ```killall```
+- https://askubuntu.com/questions/852206/what-does-ps-efgrep-processname-mean
+- https://www.linode.com/docs/guides/use-killall-and-kill-to-stop-processes-on-linux/
+
 ## Deployment with Docker [Optional]
+![](Readme_img/docker.png)
+
 
 - https://www.tutorialspoint.com/docker/index.htm
 - https://docker-curriculum.com/
@@ -332,12 +339,17 @@ python -m http.server 9000
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
 ### Heroku [Optional]
+![](Readme_img/heroku.png)
+
 
 - https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
 - https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3
 - https://www.analyticsvidhya.com/blog/2021/06/deploy-your-ml-dl-streamlit-application-on-heroku/
 
 ### Github Pages [Optional]
+![](Readme_img/githubpages.png)
+
+
 - https://www.cloudsavvyit.com/15220/how-to-set-up-a-simple-free-website-with-github-pages/
 - https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1
 
@@ -345,6 +357,8 @@ python -m http.server 9000
 - https://nicepage.com/
 
 ### WeChat Mini-program [Optional]
+![](Readme_img/miniprogram.png)
+
 
 - Take a photo and recognize digit
 
