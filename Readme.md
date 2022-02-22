@@ -336,6 +336,15 @@ python -m http.server 9000
 - https://www.tutorialspoint.com/docker/index.htm
 - https://docker-curriculum.com/
 
+#### Install Docker on Ubuntu
+```shell
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu `lsb_release -cs` test"
+sudo apt update
+sudo apt install docker-ce
+```
+
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
 ### Heroku [Optional]
