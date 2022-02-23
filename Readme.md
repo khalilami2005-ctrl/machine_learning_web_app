@@ -398,6 +398,13 @@ docker load -i <path to image tar file>
 
 Other viable alternative methods can be found here: https://www.tutorialspoint.com/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
 
+#### :rocket: :rocket: :rocket: Using Tsinghua pip source
+Add ```-i https://pypi.tuna.tsinghua.edu.cn/simple``` when using ```pip```.
+
+For more info, visit:
+- https://blog.csdn.net/kwame211/article/details/85773260
+- https://www.jianshu.com/p/db28a66cb8db
+
 #### :rocket: :rocket: :rocket: Using a pip cache directory in docker builds
 
 Modify the ```Dockerfile```:
