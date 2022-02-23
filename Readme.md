@@ -417,8 +417,14 @@ And before running ```docker build .```, set the ```DOCKER_BUILDKIT``` environme
 ```shell
 $ export DOCKER_BUILDKIT=1
 ```
+Or simply:
+```shell
+DOCKER_BUILDKIT=1 docker build .
+```
+
 
 For more info, visit:
+- https://docs.docker.com/develop/develop-images/build_enhancements/#to-enable-buildkit-builds
 - https://pythonspeed.com/articles/docker-cache-pip-downloads/
 - https://stackoverflow.com/questions/58018300/using-a-pip-cache-directory-in-docker-builds
 
