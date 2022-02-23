@@ -1,8 +1,0 @@
-2022-02-23 06:43:39.812115: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
-To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-INFO:     Started server process [7]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:8888 (Press CTRL+C to quit)
-INFO:     139.198.183.85:44686 - "POST /predict/ HTTP/1.1" 307 Temporary Redirect
-INFO:     139.198.183.85:44686 - "POST /predict HTTP/1.1" 200 OK
