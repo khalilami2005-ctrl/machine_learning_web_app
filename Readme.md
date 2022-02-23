@@ -6,8 +6,8 @@
 - Get Inspired! 
   - [Video 1 - Get Inspired!](https://www.bilibili.com/video/BV1244y1J7C7/)
 - Streamlit 
-  - [Video 2 - Train model with Jupyter notebook](https://www.bilibili.com/video/BV1Ri4y117Qh/)
-  - [Video 3 - Use trained model with streamlit](https://www.bilibili.com/video/BV1Ju411R7Gy/)
+  - [Video 2 - Training model with Jupyter notebook](https://www.bilibili.com/video/BV1Ri4y117Qh/)
+  - [Video 3 - Using trained model with streamlit](https://www.bilibili.com/video/BV1Ju411R7Gy/)
 - Deployment on local machine
     - [Video 4 - Local Deployment - Architecture](https://www.bilibili.com/video/BV1RS4y1r79Q/)
     - [Video 5 - Local Deployment - Backend & FastAPI & Uvicorn](https://www.bilibili.com/video/BV1aP4y1F7xs/)
@@ -18,12 +18,13 @@
   - [Video 9 - Cloud Deployment - FastAPI & Backend](https://www.bilibili.com/video/BV1aS4y1F76w/)
   - [Video 10 - Cloud Deployment - Streamlit & Frontend](https://www.bilibili.com/video/BV1TR4y1j7fp/)
 - Deployment with Docker
+  - [Video 11 - Learning to use Docker](https://www.bilibili.com/video/BV1kL4y1g7Xd/)
+  - [Video 12 - Cloud Deployment with Docker](https://www.bilibili.com/video/BV1wL411T7VB/)
 - Deployment on free web hosts [Optional]
     - Deployment on Heroku [Optional]
     - Deployment on Github Pages [Optional]
     - Deployment on WeChat Mini-program [Optional]
-
-
+  
 ## YouTube videos
 - Streamlit
   - https://www.youtube.com/watch?v=R2nr1uZ8ffc
