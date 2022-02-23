@@ -398,6 +398,24 @@ docker load -i <path to image tar file>
 
 Other viable alternative methods can be found here: https://www.tutorialspoint.com/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
 
+#### :rocket: :rocket: :rocket: Using a pip cache directory in docker builds
+
+Modify the ```Dockerfile```:
+```docker
+RUN --mount=type=cache,target=/root/.cache \
+pip install -r requirements.txt
+```
+
+And before running ```docker build .```, set the ```DOCKER_BUILDKIT``` environment variable to ensure BuildKit is used:
+```shell
+$ export DOCKER_BUILDKIT=1
+```
+
+For more info, visit:
+- https://pythonspeed.com/articles/docker-cache-pip-downloads/
+- https://stackoverflow.com/questions/58018300/using-a-pip-cache-directory-in-docker-builds
+
+
 ## Free (but more complicated) frontend alternatives for Streamlit [Optional]
 
 ### Heroku [Optional]
