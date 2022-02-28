@@ -57,6 +57,7 @@ a web app.
 
 ## Streamlit
 
+![](Readme_img/streamlit_logo.PNG)
 
 [Streamlit](https://www.streamlit.io/) is a 
 data science oriented
@@ -400,7 +401,10 @@ docker load -i <path to image tar file>
 Other viable alternative methods can be found here: https://www.tutorialspoint.com/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
 
 #### :rocket: :rocket: :rocket: Using Tsinghua pip source
-Add ```-i https://pypi.tuna.tsinghua.edu.cn/simple``` when using ```pip```.
+
+![](Readme_img/tsinghua.PNG)
+
+Use ```pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PYTHON_PACKAGE``` to use the Tsinghua source.
 
 For more info, visit:
 - https://blog.csdn.net/kwame211/article/details/85773260
