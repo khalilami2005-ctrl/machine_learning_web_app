@@ -1,6 +1,8 @@
 # Building a Machine Learning Web Application
 
 ## Bilibili videos
+![](Readme_img/bilibili.PNG)
+
 :rocket: All code used in the videos can be found in this repository.
 
 - Get Inspired! 
@@ -26,6 +28,7 @@
     - Deployment on WeChat Mini-program [Optional]
   
 ## YouTube videos
+![](Readme_img/youtube.PNG)
 - Streamlit
   - https://www.youtube.com/watch?v=R2nr1uZ8ffc
   - https://www.youtube.com/watch?v=sxLNCDnqyFc
@@ -293,6 +296,8 @@ need to deal with their conversions
 into the suitable data types!
 
 ## Deployment on public cloud VM
+
+![](Readme_img/cloud.PNG)
 
 #### Why?
 We want to enable any developer writing
