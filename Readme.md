@@ -409,7 +409,10 @@ Other viable alternative methods can be found here: https://www.tutorialspoint.c
 
 ![](Readme_img/tsinghua.PNG)
 
-Use ```pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PYTHON_PACKAGE``` to use the Tsinghua source.
+When installing pip packages, to have an accelerated network connection, use the Tsinghua pip source:
+```shell
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PYTHON_PACKAGE
+```
 
 For more info, visit:
 - https://blog.csdn.net/kwame211/article/details/85773260
