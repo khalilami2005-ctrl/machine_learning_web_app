@@ -461,17 +461,24 @@ For more info, visit:
 ##### Nice Page
 - https://nicepage.com/
 
+#### Material Design for Bootstrap
+- https://mdbootstrap.com/
+
 ### WeChat Mini-program [Optional]
 ![](Readme_img/miniprogram.png)
 
-
 - :rocket: :rocket: :rocket: Take a photo and recognize digit
 
-
-## Misc
-
+## Debug
+![](Readme_img/debug.jpg)
 #### Debug Uvicorn & FastAPI from PyCharm
 - https://fastapi.tiangolo.com/tutorial/debugging/
+
+#### Debug Streamlit from PyCharm
+- https://discuss.streamlit.io/t/version-1-5-0/21455/11
+- https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
+
+## Misc
 
 ##### Run Streamlit from PyCharm
 - https://discuss.streamlit.io/t/run-streamlit-from-pycharm/21624
@@ -481,8 +488,3 @@ Simply Change Interpreter options:
 -m streamlit run
 ```
 and then it's OK.
-
-#### Debug Streamlit from PyCharm
-- https://discuss.streamlit.io/t/version-1-5-0/21455/11
-- https://stackoverflow.com/questions/60172282/how-to-run-debug-a-streamlit-application-from-an-ide
-
