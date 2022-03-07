@@ -126,7 +126,7 @@ head_df
 
 
 #### How to run the app?
-```shell
+```shell script
 streamlit run app.py
 ```
 
@@ -146,7 +146,7 @@ When the command is ran, Streamlit starts a web server and opens a new tab in th
 
 - Automatically generated documentation allowing to test the API endpoints easily.
 
-```shell
+```shell script
 pip install fastapi
 ```
 
@@ -171,7 +171,7 @@ def index():
 
 
 #### What if we run the code?
-```shell
+```shell script
 python -m simple
 ```
 Nothing happens...
@@ -192,7 +192,7 @@ We will use Uvicorn!
 the code decorated for the corresponding **FastAPI**
 endpoints.
 
-```shell
+```shell script
 pip install uvicorn
 ```
 
@@ -203,7 +203,7 @@ the variable inside of the file containing the
 instance of the FastAPI app (here the variable 
 is called app, hence the supplied parameter simple:app).
 
-```shell
+```shell script
 uvicorn simple:app --reload
 ```
 
@@ -316,7 +316,7 @@ to production ?
 - https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
 
 #### Python Simple HTTP Server
-```shell
+```shell script
 python -m http.server 9000
 ```
 
@@ -343,7 +343,7 @@ python -m http.server 9000
 #### Install Docker on Ubuntu
 https://docs.docker.com/engine/install/ubuntu/
 
-```shell
+```shell script
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu `lsb_release -cs` test"
@@ -391,7 +391,7 @@ For MacOS, see https://docs.docker.com/desktop/mac/install/
 #### :rocket: [Copy Docker images from one host to another without using a repository](https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository)
 
 You will need to save the Docker image as a tar file:
-```shell
+```shell script
 docker save -o <path for generated tar file> <image name>
 ```
 
@@ -399,7 +399,7 @@ Then copy your image to a new system with regular
 file transfer tools such as cp, scp or 
 rsync. 
 After that you will have to load the image into Docker:
-```shell
+```shell script
 docker load -i <path to image tar file>
 ```
 
@@ -410,7 +410,7 @@ Other viable alternative methods can be found here: https://www.tutorialspoint.c
 ![](Readme_img/tsinghua.PNG)
 
 When installing pip packages, to have an accelerated network connection, use the Tsinghua pip source:
-```shell
+```shell script
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PYTHON_PACKAGE
 ```
 
@@ -427,11 +427,11 @@ pip install -r requirements.txt
 ```
 
 And before running ```docker build .```, set the ```DOCKER_BUILDKIT``` environment variable to ensure BuildKit is used:
-```shell
+```shell script
 $ export DOCKER_BUILDKIT=1
 ```
 Or simply:
-```shell
+```shell script
 DOCKER_BUILDKIT=1 docker build .
 ```
 
@@ -484,7 +484,7 @@ For more info, visit:
 - https://discuss.streamlit.io/t/run-streamlit-from-pycharm/21624
 
 Simply Change Interpreter options:
-```shell
+```shell script
 -m streamlit run
 ```
 and then it's OK.
