@@ -25,7 +25,6 @@
 - Deployment on free web hosts [Optional]
     - Deployment on Heroku [Optional]
     - Deployment on Github Pages [Optional]
-    - Deployment on WeChat Mini-program [Optional]
   
 ## YouTube videos
 ![](Readme_img/youtube.PNG)
@@ -463,11 +462,6 @@ For more info, visit:
 
 #### Material Design for Bootstrap
 - https://mdbootstrap.com/
-
-### WeChat Mini-program [Optional]
-![](Readme_img/miniprogram.png)
-
-- :rocket: :rocket: :rocket: Take a photo and recognize digit
 
 ## Debug
 ![](Readme_img/debug.jpg)
