@@ -22,9 +22,8 @@
 - Deployment with Docker
   - [Video 11 - Learning to use Docker](https://www.bilibili.com/video/BV1kL4y1g7Xd/)
   - [Video 12 - Cloud Deployment with Docker](https://www.bilibili.com/video/BV1wL411T7VB/)
-- Deployment on free web hosts [Optional]
-    - Deployment on Heroku [Optional]
-    - Deployment on Github Pages [Optional]
+- Deployment on Heroku [Optional]
+
   
 ## YouTube videos
 ![](Readme_img/youtube.PNG)
@@ -449,19 +448,6 @@ For more info, visit:
 - https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
 - https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3
 - https://www.analyticsvidhya.com/blog/2021/06/deploy-your-ml-dl-streamlit-application-on-heroku/
-
-### Github Pages [Optional]
-![](Readme_img/githubpages.png)
-
-
-- https://www.cloudsavvyit.com/15220/how-to-set-up-a-simple-free-website-with-github-pages/
-- https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1
-
-##### Nice Page
-- https://nicepage.com/
-
-#### Material Design for Bootstrap
-- https://mdbootstrap.com/
 
 ## Debug
 ![](Readme_img/debug.jpg)
