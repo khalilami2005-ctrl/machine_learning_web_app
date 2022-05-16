@@ -468,3 +468,5 @@ Simply Change Interpreter options:
 -m streamlit run
 ```
 and then it's OK.
+
+![](Readme_img/modelling.jpg)
