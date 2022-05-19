@@ -22,8 +22,7 @@
 - Deployment with Docker
   - [Video 11 - Learning to use Docker](https://www.bilibili.com/video/BV1kL4y1g7Xd/)
   - [Video 12 - Cloud Deployment with Docker](https://www.bilibili.com/video/BV1wL411T7VB/)
-- Deployment on Heroku [Optional]
-
+- Let's Dockerize this project
   
 ## YouTube videos
 ![](Readme_img/youtube.PNG)
@@ -210,14 +209,6 @@ API: http://localhost:8000/
 
 ## Prediction API use case
 
-#### HTTP request and response
-
-![](Readme_img/web.png)
-
-![](Readme_img/http_request.png)
-
-![](Readme_img/http_response.png)
-
 #### Documentation and tests
 FastAPI provides automatically
 generated documentation allowing
@@ -233,8 +224,6 @@ The /docs endpoint is powered by
 [Swagger](https://github.com/swagger-api/swagger-ui)
 and comes in very handy in order to test our API and verify that everything is working correctly. It is also
 very useful for developers wanting to test our API.
-
-
 
 #### Ask for prediction with ```requests```
 We want to build an API to ask for a prediction. 
@@ -338,6 +327,23 @@ python -m http.server 9000
 ![](Readme_img/docker.png)
 
 
+#### TODO: Remake Video 11
+Add:
+![](Readme_img/mysql.png)
+
+If ever you need a MySQL backend ... use Docker!
+
+```shell script
+sudo docker network create mysql-network
+sudo docker run --name=container_mysql -p7106:3306 -e MYSQL_ROOT_HOST='%' -e MYSQL_ROOT_PASSWORD=lundechen -d --net mysql-network mysql/mysql-server 
+sudo docker run --name container_phpmyadmin --link container_mysql:db -p 7880:80 -d  -e PMA_HOST=container_mysql --net mysql-network phpmyadmin/phpmyadmin
+```
+
+```mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'lundechen';
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'lundechen';
+```
+
 #### Install Docker on Ubuntu
 https://docs.docker.com/engine/install/ubuntu/
 
@@ -359,7 +365,7 @@ Ubuntu as well.
 
 For MacOS, see https://docs.docker.com/desktop/mac/install/ 
 
-#### :rocket: :rocket: :rocket: Unmissible Tutorial for beginners
+#### :rocket: :rocket: :rocket: Best Tutorial for beginners
 - https://docker-curriculum.com/
 
 
@@ -409,7 +415,7 @@ Other viable alternative methods can be found here: https://www.tutorialspoint.c
 
 When installing pip packages, to have an accelerated network connection, use the Tsinghua pip source:
 ```shell script
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PYTHON_PACKAGE
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple <PYTHON-PACKAGE>
 ```
 
 For more info, visit:
@@ -433,21 +439,14 @@ Or simply:
 DOCKER_BUILDKIT=1 docker build .
 ```
 
-
 For more info, visit:
 - https://docs.docker.com/develop/develop-images/build_enhancements/#to-enable-buildkit-builds
 - https://pythonspeed.com/articles/docker-cache-pip-downloads/
 - https://stackoverflow.com/questions/58018300/using-a-pip-cache-directory-in-docker-builds
 
+## TODO: Let's dockerize this repo with ... Docker compose
 
-## Free (but more complicated) frontend alternatives for Streamlit [Optional]
-
-### Heroku [Optional]
-![](Readme_img/heroku.png)
-
-- https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
-- https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3
-- https://www.analyticsvidhya.com/blog/2021/06/deploy-your-ml-dl-streamlit-application-on-heroku/
+## TODO: Let's ship the Docker compose to  ... DockerHub
 
 ## Debug
 ![](Readme_img/debug.jpg)
@@ -460,7 +459,7 @@ For more info, visit:
 
 ## Misc
 
-##### Run Streamlit from PyCharm
+#### Run Streamlit from PyCharm
 - https://discuss.streamlit.io/t/run-streamlit-from-pycharm/21624
 
 Simply Change Interpreter options:
@@ -469,4 +468,24 @@ Simply Change Interpreter options:
 ```
 and then it's OK.
 
+
+### Heroku [Optional]
+![](Readme_img/heroku.png)
+
+- https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
+- https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3
+- https://www.analyticsvidhya.com/blog/2021/06/deploy-your-ml-dl-streamlit-application-on-heroku/
+
+### Modelling
 ![](Readme_img/modelling.jpg)
+
+
+### Podcasts
+
+
+
+
+
+
+
+

@@ -13,3 +13,4 @@
 /venv/
 *.py[cod]
 *.DS_Store
+.vscode
