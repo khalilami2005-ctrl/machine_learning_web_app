@@ -55,6 +55,11 @@
 :rocket: If you really struggle with coming up with good ideas, you could git clone a Jupyter notebook from github and then deploy it as 
 a web app.
 
+## Save your machine learning model as local file
+
+![](Readme_img/modelling.jpg)
+
+
 ## Streamlit
 
 ![](Readme_img/streamlit_logo.PNG)
@@ -91,7 +96,7 @@ https://docs.streamlit.io/library/api-reference
 
 ![](Readme_img/streamlit_api.png)
 
-#### A simple app
+#### A simple app (TODO: change this one to Mnist Digit Recognition)
 ```python
 import streamlit as st
 
@@ -475,10 +480,6 @@ and then it's OK.
 - https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
 - https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3
 - https://www.analyticsvidhya.com/blog/2021/06/deploy-your-ml-dl-streamlit-application-on-heroku/
-
-### Modelling
-![](Readme_img/modelling.jpg)
-
 
 ### Podcasts
 
