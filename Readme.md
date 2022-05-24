@@ -489,4 +489,6 @@ and then it's OK.
 
 
 
+## Conclusion
+![](Readme_img/conclusion.png)
 
