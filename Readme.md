@@ -468,10 +468,6 @@ we are going to develop, by ourselves, a Python based solution.
 
 We use [**FastAPI**](https://testdriven.io/blog/moving-from-flask-to-fastapi) and **Uvicorn** for listening to incoming requests from GitHub.
 
-## TODO: Dockerize this project with Docker compose
-
-## TODO: Ship the Docker compose to DockerHub
-
 ## Debug
 ![](Readme_img/debug.jpg)
 #### Debug Uvicorn & FastAPI from PyCharm
@@ -492,9 +488,6 @@ Simply Change Interpreter options:
 ```
 and then it's OK.
 
-## Assignments
-
-- Automatic Deployment with Gitee/GitHub Webhook
 
 
 
