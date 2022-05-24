@@ -52,12 +52,8 @@
 - https://maneprajakta.github.io/Digit_Recognition_Web_App/
 - https://www.cs.ryerson.ca/~aharley/vis/fc/
 
-:rocket: If you really struggle with coming up with good ideas, you could git clone a Jupyter notebook from github and then deploy it as 
+:rocket: If you really struggle with coming up with good ideas, you could git clone a Jupyter notebook from GitHub and then deploy it as 
 a web app.
-
-## Save your machine learning model as local file
-
-![](Readme_img/modelling.jpg)
 
 
 ## Streamlit
@@ -489,7 +485,7 @@ Simply Change Interpreter options:
 and then it's OK.
 
 
-
+##  [optional] Frontend plus Backend, in Docker Compose 
 
 
 
