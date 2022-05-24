@@ -22,7 +22,7 @@
 - Deployment with Docker
   - [Video 11 - Learning to use Docker](https://www.bilibili.com/video/BV1kL4y1g7Xd/)
   - [Video 12 - Cloud Deployment with Docker](https://www.bilibili.com/video/BV1wL411T7VB/)
-- Let's Dockerize this project
+- Let's Dockerize this project [TODO]
   
 ## YouTube videos
 ![](Readme_img/youtube.PNG)
@@ -492,7 +492,9 @@ Simply Change Interpreter options:
 ```
 and then it's OK.
 
+## Assignments
 
+- Automatic Deployment with Gitee/GitHub Webhook
 
 
 
