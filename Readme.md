@@ -428,9 +428,8 @@ For more info, visit:
 - https://stackoverflow.com/questions/58018300/using-a-pip-cache-directory-in-docker-builds
 
 
-## [optional] WeChat Mini-Program [code by Xu Shifu]
 
-## [optional] Heroku [code by Zhong Lexing]
+## [optional] Heroku, with and without Docker
 
 ## [optional] Automatic deployment with GitHub Webhook [TODO]
 ![](readme_img/hooks.png)
