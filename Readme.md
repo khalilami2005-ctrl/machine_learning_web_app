@@ -428,7 +428,11 @@ For more info, visit:
 - https://stackoverflow.com/questions/58018300/using-a-pip-cache-directory-in-docker-builds
 
 
-## [optional] Automatic deployment with GitHub Webhook 
+## [optional] WeChat Mini-Program [code by Xu Shifu]
+
+## [optional] Heroku [code by Zhong Lexing]
+
+## [optional] Automatic deployment with GitHub Webhook []
 ![](readme_img/hooks.png)VM Pages 
 
 One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
