@@ -432,8 +432,8 @@ For more info, visit:
 
 ## [optional] Heroku [code by Zhong Lexing]
 
-## [optional] Automatic deployment with GitHub Webhook []
-![](readme_img/hooks.png)VM Pages 
+## [optional] Automatic deployment with GitHub Webhook [code by Sun Hudie]
+![](readme_img/hooks.png)
 
 One naive and simple solution would be to use ```crontab``` for periodic pull from GitHub ([ref1](https://dpursanov.medium.com/automatic-deploy-using-git-72ddbc1785cf), 
 [ref2](https://stackoverflow.com/questions/4414140/git-auto-pull-using-cronjob).
