@@ -486,6 +486,10 @@ https://towardsdatascience.com/going-beyond-99-mnist-handwritten-digits-recognit
 https://medium.com/@hemilshah68/mnist-digit-classification-with-99-accuracy-55bf1757bc25
 
 
+AutoEncoder might be helpful in improving the performance of our MNIST application, 我们的输入数据跟训练数据的灰度特征确实有较多差异:
+- https://www.youtube.com/watch?v=Rdpbnd0pCiI
+
+
 
 
 ## Conclusion
