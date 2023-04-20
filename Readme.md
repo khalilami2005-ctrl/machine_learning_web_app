@@ -497,6 +497,6 @@ AutoEncoder might be helpful in improving the performance of our MNIST applicati
 
 Conclusion.
 
-## Acknowledge
+## License
 
-Some contents are from LeWagon. 
+MIT.
