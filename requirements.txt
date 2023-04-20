@@ -7,3 +7,4 @@ python-multipart
 tensorflow-cpu
 streamlit_drawable_canvas
 uvicorn
+scikit-learn
