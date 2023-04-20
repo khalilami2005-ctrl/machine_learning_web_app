@@ -483,10 +483,10 @@ and then it's OK.
 对于神经网络而言，就是让神经网络更加复杂，加 CNN, 加 Flatten，加深度，加宽度。
 
 我找到了一篇博客，大家可以跟着提升一下我们的模型：
-https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-from-scratch-for-mnist-handwritten-digit-classification/
+- https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-from-scratch-for-mnist-handwritten-digit-classification/
 
 This one gives ever better results:
-https://towardsdatascience.com/going-beyond-99-mnist-handwritten-digits-recognition-cfff96337392
+- https://towardsdatascience.com/going-beyond-99-mnist-handwritten-digits-recognition-cfff96337392
 
 这儿第四点讲的 data augmentation 也是很好的方法:
 - https://medium.com/@hemilshah68/mnist-digit-classification-with-99-accuracy-55bf1757bc25
