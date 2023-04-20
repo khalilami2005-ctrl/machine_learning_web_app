@@ -24,10 +24,10 @@
   - [Video 12 - Cloud Deployment with Docker](https://www.bilibili.com/video/BV1wL411T7VB/)
 - [optional] Install MySQL and PhpMyAdmin with Docker 
   - Tutorial: https://github.com/reveurmichael/mysql-python-tutorial
-  - Video: https://www.bilibili.com/video/BV1mB4y1Y7Yw
+  - Video 13: https://www.bilibili.com/video/BV1mB4y1Y7Yw
 - [optional] Streamlit Cookie Tutorial
   - Tutorial: https://github.com/reveurmichael/streamlit-cookie-tutorial
-  - Video: https://www.bilibili.com/video/BV1pr4y177rK
+  - Video 14: https://www.bilibili.com/video/BV1pr4y177rK
 
 
 ## YouTube videos
