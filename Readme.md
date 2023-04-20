@@ -58,8 +58,7 @@
 - https://maneprajakta.github.io/Digit_Recognition_Web_App/
 - https://www.cs.ryerson.ca/~aharley/vis/fc/
 
-:rocket: If you really struggle with coming up with good ideas, you could git clone a Jupyter notebook from GitHub and then deploy it as 
-a web app.
+:rocket: If you really struggle with coming up with good ideas, you could git clone a Jupyter notebook from GitHub and then deploy it as a web app.
 
 
 ## Streamlit
