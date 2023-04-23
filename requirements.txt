@@ -1,6 +1,6 @@
 uvicorn
 fastapi
-opencv-python
+opencv-contrib-python
 numpy
 pandas
 python-multipart
