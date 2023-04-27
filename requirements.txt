@@ -1,10 +1,9 @@
 uvicorn
 fastapi
-opencv-python
+opencv-python-headless
 numpy
 pandas
 python-multipart
 tensorflow-cpu
 streamlit_drawable_canvas
-uvicorn
 scikit-learn
