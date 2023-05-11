@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.3
 
-FROM ubuntu
+FROM python:3.9-buster
 
 RUN apt -y update
 RUN apt install -y --fix-missing \
