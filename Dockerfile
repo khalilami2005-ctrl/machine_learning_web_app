@@ -1,7 +1,18 @@
 # syntax=docker/dockerfile:1.3
 
-FROM python:3.9-buster
-
+FROM ubuntu:22.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN mv /etc/apt/source.list /etc/apt/source.list.backup
+RUN echo "deb http://mirrors.163.com/ubuntu/ jammy main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb http://mirrors.163.com/ubuntu/ jammy-security main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb http://mirrors.163.com/ubuntu/ jammy-updates main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb http://mirrors.163.com/ubuntu/ jammy-proposed main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb http://mirrors.163.com/ubuntu/ jammy-backports main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb-src http://mirrors.163.com/ubuntu/ jammy main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb-src http://mirrors.163.com/ubuntu/ jammy-security main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb-src http://mirrors.163.com/ubuntu/ jammy-updates main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb-src http://mirrors.163.com/ubuntu/ jammy-proposed main restricted universe multiverse\n" >> /etc/apt/source.list
+RUN echo "deb-src http://mirrors.163.com/ubuntu/ jammy-backports main restricted universe multiverse\n" >> /etc/apt/source.list
 RUN apt -y update
 RUN apt install -y --fix-missing \
     build-essential \
