@@ -49,7 +49,12 @@ with col_clear:
         st.rerun()
 
 if canvas_result.image_data is not None:
-    img = cv2.resize(canvas_result.image_data.astype('uint8'), (28, 28))
+    img_data = canvas_result.image_data
+    if img_data.dtype == np.float32 or img_data.dtype == np.float64:
+        img_data = (img_data * 255).astype(np.uint8)
+    else:
+        img_data = img_data.astype(np.uint8)
+    img = cv2.resize(img_data, (28, 28))
     col1, col2 = st.columns(2)
     with col1:
         st.write("Input Image")
@@ -57,8 +62,8 @@ if canvas_result.image_data is not None:
         st.image(img_display, clamp=True)
 
     if st.button('Predict'):
-        img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        img_flat = img_grey.reshape(1, 784) / 255.0
+        img_grey = img[:, :, 0]
+        img_flat = img_grey.reshape(1, 784).astype(np.float32)
         pred = predict(img_flat)
         result = int(np.argmax(pred[0]))
         confidence = float(np.max(pred[0]))
