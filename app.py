@@ -47,7 +47,7 @@ if canvas_result.image_data is not None:
 
     if st.button('Predict'):
         img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        img_flat = (255 - img_grey).reshape(1, 784) / 255.0
+        img_flat = img_grey.reshape(1, 784) / 255.0
         pred = predict(img_flat)
         result = int(np.argmax(pred[0]))
         confidence = float(np.max(pred[0]))
