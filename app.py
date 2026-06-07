@@ -7,6 +7,9 @@ st.set_page_config(page_title="MNIST Digit Recognizer", page_icon="✏️")
 st.title("MNIST Digit Recognizer")
 st.markdown("Draw a digit (0-9) on the canvas below and let the model predict it!")
 
+if "canvas_key" not in st.session_state:
+    st.session_state.canvas_key = 0
+
 @st.cache_resource
 def load_weights():
     data = np.load('mnist_weights.npz')
@@ -26,16 +29,24 @@ def predict(img_flat):
     output = softmax(np.dot(hidden, w2) + b2)
     return output
 
-canvas_result = st_canvas(
-    fill_color="#ffffff",
-    stroke_width=10,
-    stroke_color='#ffffff',
-    background_color="#000000",
-    height=150,
-    width=150,
-    drawing_mode='freedraw',
-    key="canvas",
-)
+col_canvas, col_clear = st.columns([3, 1])
+with col_canvas:
+    canvas_result = st_canvas(
+        fill_color="#ffffff",
+        stroke_width=10,
+        stroke_color='#ffffff',
+        background_color="#000000",
+        height=150,
+        width=150,
+        drawing_mode='freedraw',
+        key=f"canvas_{st.session_state.canvas_key}",
+    )
+with col_clear:
+    st.write("")
+    st.write("")
+    if st.button("Clear"):
+        st.session_state.canvas_key += 1
+        st.rerun()
 
 if canvas_result.image_data is not None:
     img = cv2.resize(canvas_result.image_data.astype('uint8'), (28, 28))
