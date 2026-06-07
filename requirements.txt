@@ -2,4 +2,6 @@ streamlit
 streamlit-drawable-canvas
 opencv-python-headless
 numpy
-tensorflow
+scikit-learn
+joblib
+pandas
