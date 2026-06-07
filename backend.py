@@ -18,7 +18,7 @@ def index():
 @app.post("/predict")
 async def predict(img: UploadFile = File(...)):
     contents = await img.read()
-    nparr = np.fromstring(contents, np.uint8)
+    nparr = np.frombuffer(contents, np.uint8)
     img_color = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
     img_grey = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
     pred = model_new.predict(img_grey.reshape(1, 28, 28, 1))
