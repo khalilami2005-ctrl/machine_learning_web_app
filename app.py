@@ -62,8 +62,8 @@ if canvas_result.image_data is not None:
         st.image(img_display, clamp=True)
 
     if st.button('Predict'):
-        img_grey = img[:, :, 0]
-        img_flat = img_grey.reshape(1, 784).astype(np.float32)
+        img_grey = img[:, :, 0].astype(np.float32)
+        img_flat = img_grey.reshape(1, 784)
         pred = predict(img_flat)
         result = int(np.argmax(pred[0]))
         confidence = float(np.max(pred[0]))
